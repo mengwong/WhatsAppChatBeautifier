@@ -840,7 +840,7 @@ module WhatsAppChatBeautifier
       end
 
       html << "<div class=\"timestamp\">"
-      html << message[:timestamp].strftime("%H:%M")
+      html << message[:timestamp].strftime("%-I:%M %p %b %-d")
       html << "</div>\n"
       html << "</div>\n"
       html << "</div>\n"
